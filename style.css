@@ -1,0 +1,41 @@
+body {
+  background-color: #04a6eb;
+  color: #fdffff;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", sans-serif;
+}
+
+button {
+  padding: 6px 20px;
+  background-color: #337ab7;
+  color: #fdffff;
+  border-style: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+#question-area {
+  font-size: 20px;
+  margin: 14px 0 10px;
+}
+
+#status {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+#result-area {
+  margin-top: 14px;
+  white-space: pre-wrap; 
+}
+
+#tweet-area {
+  margin-top: 10px;
+}
+
+#tweet-area a, #tweet-area button {
+  display: inline-block;
+  margin-top: 8px;
+}
