@@ -1,24 +1,32 @@
 body {
   background-color: #04a6eb;
   color: #fdffff;
-  width: 500px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 button {
-  padding: 6px 20px;
+  padding: 10px 28px;
   background-color: #337ab7;
-  color: #fdffff;
+  color: #ffffff;
   border-style: none;
   cursor: pointer;
-  margin-right: 8px;
+  margin-right: 12px;
+
+  border-radius: 999px;
+  font-size: 18px;
+  box-shadow: 0 4px 0 #2a5f8a;
 }
 
+
 #question-area {
-  font-size: 20px;
-  margin: 14px 0 10px;
+  font-size: 24px;
+  margin: 20px 0 16px;
+  font-weight: bold;
 }
 
 #status {
@@ -39,3 +47,4 @@ button {
   display: inline-block;
   margin-top: 8px;
 }
+
