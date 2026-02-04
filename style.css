@@ -1,50 +1,63 @@
 body {
-  background-color: #04a6eb;
-  color: #fdffff;
-  width: 600px;
+  background-color: #bfe9ff;
+  color: #2b3a42;
+  width: 680px;
   margin-left: auto;
   margin-right: auto;
+
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", sans-serif;
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 20px;
+  line-height: 1.8;
 }
+
+
+h1 {
+  font-size: 36px;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+
 
 button {
-  padding: 10px 28px;
-  background-color: #337ab7;
-  color: #ffffff;
-  border-style: none;
-  cursor: pointer;
-  margin-right: 12px;
-
+  padding: 16px 36px;
+  font-size: 22px;
   border-radius: 999px;
-  font-size: 18px;
-  box-shadow: 0 4px 0 #2a5f8a;
+  border: none;
+  margin-right: 16px;
+
+  background-color: #ffd6e8;
+  color: #5a2a42;
+
+  box-shadow: 0 6px 0 #e4b8c8;
 }
+
 
 
 #question-area {
-  font-size: 24px;
-  margin: 20px 0 16px;
+  font-size: 28px;
+  margin: 24px 0 20px;
   font-weight: bold;
+  color: #34495e;
 }
 
-#status {
-  margin: 10px 0;
-  font-size: 14px;
-}
 
+#status,
 #result-area {
-  margin-top: 14px;
-  white-space: pre-wrap; 
+  background: #ffffffcc;
+  color: #34495e;
+  padding: 20px 22px;
+  border-radius: 20px;
+  margin-top: 18px;
+
+  font-size: 20px;
 }
 
-#tweet-area {
-  margin-top: 10px;
+
+#tweet-area button {
+  background-color: #d6f5d6;
+  color: #2d5a2d;
+  box-shadow: 0 6px 0 #bfe0bf;
 }
 
-#tweet-area a, #tweet-area button {
-  display: inline-block;
-  margin-top: 8px;
-}
 
