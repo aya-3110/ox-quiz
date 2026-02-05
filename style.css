@@ -61,5 +61,14 @@ button {
 }
 
 
+#tweet-area a,
+#tweet-area button {
+  font-size: 20px;
+  padding: 16px 28px;
+  border-radius: 999px;
+}
+
+
+
 
 
