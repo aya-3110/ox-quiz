@@ -54,11 +54,11 @@ button {
 }
 
 
-
-
+#tweet-area a,
 #tweet-area button {
-background-color: #d6f5d6;
-color: #2d5a2d;
-box-shadow: 0 6px 0 #bfe0bf;
+  font-size: 20px;
+  padding: 16px 28px;
+  border-radius: 999px;
+
 
 
